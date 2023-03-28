@@ -37,6 +37,9 @@ section#login {
 
     position: absolute;
     transform: translate(-50%, -50%);
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
